@@ -1,22 +1,57 @@
 {
   "app": {
-    "title": "Moda5ar",
-    "subtitle": "Your Multilingual Platform",
-    "description": "Welcome to Moda5ar! A powerful multilingual application supporting both Arabic and English languages for your needs."
+    "title": "Moda5ar"
   },
-  "languages": {
-    "english": "English",
-    "arabic": "العربية"
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to Moda5ar",
+    "subtitle": "Your multilingual solution for modern web applications. Supporting Arabic and English with seamless language switching.",
+    "cta": "Get Started"
   },
   "features": {
-    "multilingual": "Multilingual",
-    "multilingualDesc": "Support for multiple languages",
-    "responsive": "Responsive",
-    "responsiveDesc": "Works on all devices",
-    "fast": "Fast",
-    "fastDesc": "Lightning quick performance",
-    "secure": "Secure",
-    "secureDesc": "Enterprise-level security"
+    "title": "Why Choose Moda5ar?",
+    "multilingual": "Multilingual Support",
+    "fast": "Lightning Fast",
+    "secure": "Highly Secure",
+    "responsive": "Fully Responsive",
+    "beautiful": "Beautiful Design",
+    "flexible": "Flexible & Scalable"
   },
-  "footer": "© 2024 Moda5ar. All rights reserved."
+  "services": {
+    "title": "Our Services",
+    "consulting": "Consulting",
+    "consulting_desc": "Professional consulting services for your digital transformation needs",
+    "training": "Training",
+    "training_desc": "Comprehensive training programs for your team",
+    "support": "Support",
+    "support_desc": "24/7 dedicated support for all your needs",
+    "analytics": "Analytics",
+    "analytics_desc": "Advanced analytics and insights for your business"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "testimonial1": "Moda5ar has transformed the way we build multilingual applications. Highly recommended!",
+    "testimonial2": "The Arabic language support is perfect and the UI is absolutely stunning.",
+    "testimonial3": "Best platform for building responsive, multilingual web apps. Great support team!"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "submit": "Send Message",
+    "success": "Thank you! Your message has been sent successfully."
+  },
+  "footer": {
+    "description": "Building beautiful, multilingual web applications for the modern world.",
+    "links": "Quick Links",
+    "contact": "Contact Info",
+    "copyright": "© 2024 Moda5ar. All rights reserved."
+  }
 }
