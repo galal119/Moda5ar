@@ -1,0 +1,22 @@
+{
+  "app": {
+    "title": "Moda5ar",
+    "subtitle": "Your Multilingual Platform",
+    "description": "Welcome to Moda5ar! A powerful multilingual application supporting both Arabic and English languages for your needs."
+  },
+  "languages": {
+    "english": "English",
+    "arabic": "العربية"
+  },
+  "features": {
+    "multilingual": "Multilingual",
+    "multilingualDesc": "Support for multiple languages",
+    "responsive": "Responsive",
+    "responsiveDesc": "Works on all devices",
+    "fast": "Fast",
+    "fastDesc": "Lightning quick performance",
+    "secure": "Secure",
+    "secureDesc": "Enterprise-level security"
+  },
+  "footer": "© 2024 Moda5ar. All rights reserved."
+}

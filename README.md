@@ -1,101 +1,120 @@
-# Moda5ar – Invest in Real Estate, One Share at a Time
+# Moda5ar - موضع
 
-Moda5ar is a smart real estate investment platform that makes property ownership accessible to everyone through partial ownership. Instead of purchasing an entire property, you can buy shares in carefully selected, income-generating real estate and start building your investment portfolio with a budget that suits you.
+A modern, multilingual web application supporting Arabic and English languages with RTL/LTR support.
 
-## Key Features
+## Features
 
-- 🏢 **Fractional Ownership**: Invest in premium properties through partial ownership
-- 🔍 **Property Browsing**: Explore apartments, offices, clinics, retail shops, land, factories, farms, warehouses, and more
-- 📊 **Transparent Data**: View detailed information, photos, Google Maps location, and financial metrics
-- 💰 **Smart Recommendations**: AI-powered property suggestions based on your budget
-- 🤖 **AI Assistant**: Explain investment processes and provide real-time support
-- 📈 **Portfolio Tracking**: Monitor investments and rental income
-- 🔐 **Secure Transactions**: Safe share purchasing and ownership management
-- ⏱️ **Real-time Updates**: Track available shares for each property
+✨ **Multilingual Support** - Seamless switching between Arabic and English
+📱 **Responsive Design** - Works perfectly on all devices
+⚡ **Fast Performance** - Optimized for speed
+🔒 **Secure** - Enterprise-level security
+🌍 **RTL/LTR Support** - Full support for right-to-left and left-to-right text
 
-## Tech Stack
+## Getting Started
 
-### Frontend
-- **Framework**: Next.js 14+ with React
-- **Styling**: Tailwind CSS
-- **State Management**: Redux Toolkit
-- **UI Components**: Shadcn/ui
-- **Maps**: Google Maps API
-- **Charts**: Recharts
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-### Backend
-- **Framework**: Node.js with Express
-- **Database**: PostgreSQL
-- **ORM**: Prisma
-- **Authentication**: JWT
-- **Real-time**: Socket.io
-- **AI**: OpenAI API
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/galal119/moda5ar.git
+
+# Navigate to the project directory
+cd moda5ar
+
+# Install dependencies
+npm install
+```
+
+### Running the Application
+
+```bash
+# Start the development server
+npm start
+
+# The app will open at http://localhost:3000
+```
 
 ## Project Structure
 
 ```
 moda5ar/
-├── frontend/          # Next.js frontend application
-├── backend/           # Node.js/Express API server
-├── docker-compose.yml # Docker configuration
-├── .env.example       # Environment variables template
-└── README.md          # This file
+├── public/
+│   ├── index.html          # Main HTML file
+│   └── styles.css          # Global styles
+├── src/
+│   ├── locales/
+│   │   ├── en.json         # English translations
+│   │   └── ar.json         # Arabic translations
+│   ├── App.js              # Main app component
+│   ├── i18n.js             # i18n configuration
+│   └── index.js            # Entry point
+├── package.json            # Dependencies
+└── README.md              # This file
 ```
 
-## Getting Started
+## Language Support
 
-### Prerequisites
-- Node.js 18+
-- PostgreSQL 14+
-- Docker (optional)
-- Git
+### English
+- Default language
+- LTR (Left-to-Right) layout
 
-### Installation
+### Arabic (العربية)
+- Full RTL (Right-to-Left) support
+- Automatic layout adjustment
+- Complete Arabic translations
 
-1. Clone the repository
-```bash
-git clone https://github.com/galal119/moda5ar.git
-cd moda5ar
+## Technology Stack
+
+- **React 18** - UI framework
+- **i18next** - Internationalization framework
+- **react-i18next** - React i18n plugin
+- **CSS3** - Styling with RTL support
+
+## Usage
+
+### Switching Languages
+
+Click the language buttons in the top-right corner:
+- **EN** - Switch to English
+- **العربية** - Switch to Arabic
+
+The selected language is automatically saved to localStorage and persists across sessions.
+
+### Adding New Translations
+
+1. Add new keys to `src/locales/en.json` and `src/locales/ar.json`
+2. Import translations in your components
+3. Use the `useTranslation` hook:
+
+```javascript
+const { t } = useTranslation();
+
+return <div>{t('your.translation.key')}</div>;
 ```
 
-2. Install dependencies
-```bash
-# Frontend
-cd frontend
-npm install
+## Browser Support
 
-# Backend
-cd ../backend
-npm install
-```
-
-3. Set up environment variables
-```bash
-cp .env.example .env.local
-```
-
-4. Start development servers
-```bash
-# Frontend (in frontend directory)
-npm run dev
-
-# Backend (in backend directory)
-npm run dev
-```
-
-Frontend: http://localhost:3000
-Backend: http://localhost:3001
-
-## Docker Setup
-
-```bash
-docker-compose up -d
-```
-
-## Contributing
-
-Contributions are welcome! Please read our contributing guidelines and submit pull requests to our repository.
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
 ## License
 
-MIT License - see LICENSE file for details
+MIT License - feel free to use this project for your own purposes.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact
+
+For questions or suggestions, please open an issue on GitHub.
+
+---
+
+**Moda5ar** - Making multilingual apps simple and accessible.
